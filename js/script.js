@@ -71,7 +71,7 @@ async function UpdateAll(){
 
 async function UpdateMachine1(){
     try {
-        const response = await axios.get(config.api.host + "/api/status/check/1");
+        const response = await axios.get(`${config.api.host}/api/status/check/1`);
         if(response.data.status == "FAIL"){
             console.log(response.data.error);
             status_machine_1.innerHTML = status_theme(-1);
@@ -95,7 +95,7 @@ async function UpdateMachine1(){
 
 async function UpdateMachine2(){
     try {
-        const response = await axios.get(config.api.host + "/api/status/check/2");
+        const response = await axios.get(`${config.api.host}/api/status/check/2`);
         if(response.data.status == "FAIL"){
             console.log(response.data.error);
             status_machine_2.innerHTML = status_theme(-1);
@@ -119,7 +119,7 @@ async function UpdateMachine2(){
 
 async function UpdateMachine3(){
     try {
-        const response = await axios.get(config.api.host + "/api/status/check/3");
+        const response = await axios.get(`${config.api.host}/api/status/check/3`);
         if(response.data.status == "FAIL"){
             console.log(response.data.error);
             status_machine_3.innerHTML = status_theme(-1);
@@ -143,7 +143,7 @@ async function UpdateMachine3(){
 
 async function UpdateMachine4(){
     try {
-        const response = await axios.get(config.api.host + "/api/status/check/4");
+        const response = await axios.get(`${config.api.host}/api/status/check/4`);
         if(response.data.status == "FAIL"){
             console.log(response.data.error);
             status_machine_4.innerHTML = status_theme(-1);
@@ -167,7 +167,7 @@ async function UpdateMachine4(){
 
 async function UpdateMachine5(){
     try {
-        const response = await axios.get(config.api.host + "/api/status/check/5");
+        const response = await axios.get(`${config.api.host}/api/status/check/5`);
         if(response.data.status == "FAIL"){
             console.log(response.data.error);
             status_machine_5.innerHTML = status_theme(-1);
@@ -191,7 +191,7 @@ async function UpdateMachine5(){
 
 async function UpdateMachine6(){
     try {
-        const response = await axios.get(config.api.host + "/api/status/check/6");
+        const response = await axios.get(`${config.api.host}/api/status/check/6`);
         if(response.data.status == "FAIL"){
             console.log(response.data.error);
             status_machine_6.innerHTML = status_theme(-1);
