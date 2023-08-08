@@ -1,7 +1,7 @@
 // *********** config ***********
 const config = {
     api: {
-        host: "success-i-know-api.vercel.app",
+        host: "https://success-i-know-api.vercel.app",
     },
 }
 // *********** config ***********
