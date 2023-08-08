@@ -1,7 +1,7 @@
 // *********** config ***********
 const config = {
     api: {
-        host: "http://45.141.27.54:808",
+        host: "success-i-know-api.vercel.app",
     },
 }
 // *********** config ***********
