@@ -1,4 +1,10 @@
-
+// *********** config ***********
+const config = {
+    api: {
+        host: "http://45.141.27.54:808",
+    },
+}
+// *********** config ***********
 
 
 // Update button
@@ -33,13 +39,7 @@ setInterval(async() =>{
 
 
 
-// *********** config ***********
-const config = {
-    api: {
-        host: "http://45.141.27.54:808",
-    },
-}
-// *********** config ***********
+
 
 
 
