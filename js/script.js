@@ -52,7 +52,7 @@ function status_theme(status){
     if(status === 0){
         return "<span class='text-success'>สามารถใช้งานได้</span>";
     }
-    else if(status === 1){
+    else if(status === "1"){
         return "<span class='text-warning'>กำลังทำงานอยู่</span>";
     }
     else if(status === (-1)){
@@ -78,7 +78,7 @@ async function UpdateMachine1(){
             return;
         }
         if(response.data.status == "SUCCESS"){
-            if(response.data.data.results.status === 1){
+            if(response.data.data.results.status === "1"){
                 status_machine_1.innerHTML = status_theme(1);
             }
             else {
@@ -102,7 +102,7 @@ async function UpdateMachine2(){
             return;
         }
         if(response.data.status == "SUCCESS"){
-            if(response.data.data.results.status === 1){
+            if(response.data.data.results.status === "1"){
                 status_machine_2.innerHTML = status_theme(1);
             }
             else {
@@ -126,7 +126,7 @@ async function UpdateMachine3(){
             return;
         }
         if(response.data.status == "SUCCESS"){
-            if(response.data.data.results.status === 1){
+            if(response.data.data.results.status === "1"){
                 status_machine_3.innerHTML = status_theme(1);
             }
             else {
@@ -150,7 +150,7 @@ async function UpdateMachine4(){
             return;
         }
         if(response.data.status == "SUCCESS"){
-            if(response.data.data.results.status === 1){
+            if(response.data.data.results.status === "1"){
                 status_machine_4.innerHTML = status_theme(1);
             }
             else {
@@ -174,7 +174,7 @@ async function UpdateMachine5(){
             return;
         }
         if(response.data.status == "SUCCESS"){
-            if(response.data.data.results.status === 1){
+            if(response.data.data.results.status === "1"){
                 status_machine_5.innerHTML = status_theme(1);
             }
             else {
@@ -198,7 +198,7 @@ async function UpdateMachine6(){
             return;
         }
         if(response.data.status == "SUCCESS"){
-            if(response.data.data.results.status === 1){
+            if(response.data.data.results.status === "1"){
                 status_machine_6.innerHTML = status_theme(1);
             }
             else {
