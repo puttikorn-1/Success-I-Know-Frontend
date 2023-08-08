@@ -52,7 +52,7 @@ function status_theme(status){
     if(status === 0){
         return "<span class='text-success'>สามารถใช้งานได้</span>";
     }
-    else if(status === "1"){
+    else if(status === 1){
         return "<span class='text-warning'>กำลังทำงานอยู่</span>";
     }
     else if(status === (-1)){
