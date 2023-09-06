@@ -1,3 +1,9 @@
 * {
     font-family: 'Prompt', sans-serif;
 }
+body{
+    padding: 0;
+    margin: 0;
+    background: url(/img/564000009966701.jpg)no-repeat center center fixed;
+    background-size: cover;
+}
